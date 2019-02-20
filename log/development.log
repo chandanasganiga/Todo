@@ -1,0 +1,1133 @@
+Started GET "/" for 127.0.0.1 at 2019-02-18 18:36:03 +0530
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with 'primary' found.):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1009:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-18 18:39:17 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 23ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:14:57 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 134ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:19:13 +0530
+  
+AbstractController::ActionNotFound (The action 'hello' could not be found for ApplicationController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:19:42 +0530
+Processing by ApplicationController#hello as HTML
+Completed 406 Not Acceptable in 57ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ApplicationController#hello is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.2) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:20:15 +0530
+Processing by ApplicationController#hello as HTML
+  Rendering text template
+  Rendered text template (0.8ms)
+Completed 200 OK in 152ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:40:06 +0530
+Processing by ApplicationController#hello as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:40:09 +0530
+Processing by ApplicationController#hello as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:40:11 +0530
+Processing by ApplicationController#hello as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:40:11 +0530
+Processing by ApplicationController#hello as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:40:38 +0530
+  
+AbstractController::ActionNotFound (The action 'hello' could not be found for PagesController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:40:51 +0530
+Processing by PagesController#home as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:42:57 +0530
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb
+  Rendered pages/home.html.erb (0.5ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 11:52:26 +0530
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb
+  Rendered pages/home.html.erb (0.8ms)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-02-19 11:52:34 +0530
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb
+  Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateTodos (20190219095021)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text)[0m
+  ↳ db/migrate/20190219095021_create_todos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (13.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190219095021"]]
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (62.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-02-19 09:52:11.847290"], ["updated_at", "2019-02-19 09:52:11.847290"]]
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTodo Create (33.7ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "lunch"], ["description", "I will cook lunch"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTodo Create (45.2ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "dinner"], ["description", "dinner out"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTodo Update (45.0ms)[0m  [1m[33mUPDATE "todos" SET "description" = ? WHERE "todos"."id" = ?[0m  [["description", "hai"], ["id", 2]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTodo Create (0.6ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "breakfast"], ["description", "I had"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" ORDER BY "todos"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTodo Destroy (50.9ms)[0m  [1m[31mDELETE FROM "todos" WHERE "todos"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/todos/edit" for 127.0.0.1 at 2019-02-19 16:44:27 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (uninitialized constant TodosController):
+  
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:76:in `block in load_missing_constant'
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:76:in `rescue in load_missing_constant'
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:10:43 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (0.9ms)
+Completed 200 OK in 68ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:11:06 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (0.5ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:16:11 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (132.4ms)
+Completed 200 OK in 319ms (Views: 139.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:21:19 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (873.4ms)
+Completed 200 OK in 884ms (Views: 880.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:21:28 +0530
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for TodosController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:28:04 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gajs+6F55oiJsTvlHZwNvbKLx5bkJbyHuQuD1lw6N3tzVStqMfenLVD7RQja2+d76Tyffdt08yBCUgFbsGgoDg==", "todo"=>{"name"=>"dfvsr", "description"=>"cfsgwgrth"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (1.6ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "dfvsr"], ["description", "cfsgwgrth"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (29.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/4
+Completed 302 Found in 100ms (ActiveRecord: 31.7ms)
+
+
+Started GET "/todos/4" for 127.0.0.1 at 2019-02-20 12:28:05 +0530
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for TodosController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:28:16 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (2.6ms)
+Completed 200 OK in 55ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:28:21 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GJJ2j/2V9uQ0zfPLgmH5XRLoWxZcZeiF3vK3TlF/39nqb7EebRu3Qe2HjSZFJhObSV8D/WM0pyIlqzXDvS3ArA==", "todo"=>{"name"=>"fsg", "description"=>"dgethuy57j"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (25.5ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "fsg"], ["description", "dgethuy57j"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (48.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/5
+Completed 302 Found in 77ms (ActiveRecord: 73.7ms)
+
+
+Started GET "/todos/5" for 127.0.0.1 at 2019-02-20 12:28:21 +0530
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for TodosController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 127.0.0.1 at 2019-02-20 12:30:59 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb
+  Rendered pages/home.html.erb (44.9ms)
+Completed 200 OK in 302ms (Views: 277.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:31:03 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (308.8ms)
+Completed 200 OK in 455ms (Views: 315.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:36:06 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (13.4ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/Users/chandanas/Desktop/Rails/myapp/myapp/app/views/todos/new.html.erb:30: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/chandanas/Desktop/Rails/myapp/myapp/app/views/todos/new.html.erb:32: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/todos/new.html.erb:30: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/todos/new.html.erb:32: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:36:20 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (0.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chandanas/Desktop/Rails/myapp/myapp/app/views/todos/new.html.erb:30: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/chandanas/Desktop/Rails/myapp/myapp/app/views/todos/new.html.erb:32: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/todos/new.html.erb:30: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/todos/new.html.erb:32: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:37:42 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (5.3ms)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:37:56 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rONruBSk8q/v1NMQc9rDU2nF/orUqH2WP7wF+kYkfuBeHqwphCqzCjaerf20nSmVMnKmYev5MjHE5Yd3qnZhlQ==", "todo"=>{"name"=>"", "description"=>""}, "commit"=>"Create Todo"}
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:37:56 +0530
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by TodosController#create as HTML
+  ↳ app/controllers/todos_controller.rb:8
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rONruBSk8q/v1NMQc9rDU2nF/orUqH2WP7wF+kYkfuBeHqwphCqzCjaerf20nSmVMnKmYev5MjHE5Yd3qnZhlQ==", "todo"=>{"name"=>"", "description"=>""}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  ↳ app/controllers/todos_controller.rb:8
+  Rendering todos/new.html.erb
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered todos/new.html.erb (4.7ms)
+  ↳ app/controllers/todos_controller.rb:8
+Completed 200 OK in 22ms (Views: 12.5ms | ActiveRecord: 0.2ms)
+
+
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (1.9ms)
+Completed 200 OK in 25ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:49:45 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (2.5ms)
+Completed 200 OK in 99ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:49:52 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v7j8XPuimIV7qE+YYxfahxkhGOUwhbsDBsBvGE7U0S5NRTvNayzZIKLiMXWkUDBBQpZADg/U9KT9me2VoobOWw==", "todo"=>{"name"=>"zdvfsdv", "description"=>"dfvgeth"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (92.0ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "zdvfsdv"], ["description", "dfvgeth"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (21.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/6
+Completed 302 Found in 119ms (ActiveRecord: 114.0ms)
+
+
+Started GET "/todos/6" for 127.0.0.1 at 2019-02-20 12:49:53 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"6"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.4ms)
+Completed 200 OK in 11ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 12:54:28 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (2.5ms)
+Completed 200 OK in 36ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 12:54:34 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GRmBKoFNuZrQyLIceWIPNkqJPvx2P5wTQx4rsPyhJWDr5Ea7EcP4PwmCzPG+JeXwET5mF0lu07S4R6k9EPM6FQ==", "todo"=>{"name"=>"zee", "description"=>"sd"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "zee"], ["description", "sd"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (104.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/7
+Completed 302 Found in 111ms (ActiveRecord: 105.2ms)
+
+
+Started GET "/todos/7" for 127.0.0.1 at 2019-02-20 12:54:35 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"7"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.4ms)
+Completed 200 OK in 119ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:13:46 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (250.3ms)
+Completed 200 OK in 465ms (Views: 352.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:13:47 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (2.7ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:13:56 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9UcYeULHWqW6KHATm25dVHmX5OYvtVucKNb4A6adsDkHut/o0kkbAGNiDv5cKbeSIiC8DRDkFDvTj3qOSs+vTA==", "todo"=>{"name"=>"zeeee", "description"=>"ass"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (52.6ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "zeeee"], ["description", "ass"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/8
+Completed 302 Found in 60ms (ActiveRecord: 54.1ms)
+
+
+Started GET "/todos/8" for 127.0.0.1 at 2019-02-20 15:13:56 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"8"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/8" for 127.0.0.1 at 2019-02-20 15:25:41 +0530
+  
+TypeError (superclass must be a Class (Module given)):
+  
+app/controllers/todos_controller.rb:1:in `<main>'
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:26:45 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (3.2ms)
+Completed 200 OK in 166ms (Views: 9.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:26:54 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sSKt99QQTn5ZYaauyN25zv/6vc3uqtP3Arca4DPWDUtD32pmRJ4P24Ar2EMPmlMIpE3lJtH7nFD57pht34QSPg==", "todo"=>{"name"=>"dfghj", "description"=>""}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (3.6ms)
+Completed 200 OK in 20ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:26:59 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kaYqIMbA+qUFN1fdSO85QcKEKLy4r4tgNm1JZCwpAbFjW+2xVk67ANx9KTCPqNOHmTNwV4f+xMfNNMvpwHsexA==", "todo"=>{"name"=>"dfghj", "description"=>"hgdiequfo"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (46.6ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "dfghj"], ["description", "hgdiequfo"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/9
+Completed 302 Found in 54ms (ActiveRecord: 48.2ms)
+
+
+Started GET "/todos/9" for 127.0.0.1 at 2019-02-20 15:26:59 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"9"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:33:38 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (108.9ms)
+Completed 200 OK in 145ms (Views: 117.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:33:46 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2p8NzAum37E+k8TgVYNLnwnbdkT88jKc9mNWwPun2Q4oYspdmyieFOfZug2SxKFZUmwur8OjfTsNOtRNF/XGew==", "todo"=>{"name"=>"chandu", "description"=>"jkhfeth"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (18.2ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "chandu"], ["description", "jkhfeth"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/10
+Completed 302 Found in 25ms (ActiveRecord: 19.6ms)
+
+
+Started GET "/todos/10" for 127.0.0.1 at 2019-02-20 15:33:46 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"10"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:34:59 +0530
+  
+SyntaxError (/Users/chandanas/Desktop/Rails/myapp/myapp/app/controllers/todos_controller.rb:9: syntax error, unexpected '<'
+       <% flash[:notice]= "Todo was created successfully!" %>
+        ^
+/Users/chandanas/Desktop/Rails/myapp/myapp/app/controllers/todos_controller.rb:9: syntax error, unexpected '>'):
+  
+app/controllers/todos_controller.rb:9: syntax error, unexpected '<'
+app/controllers/todos_controller.rb:9: syntax error, unexpected '>'
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:35:30 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (3.2ms)
+Completed 200 OK in 26ms (Views: 10.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:39:18 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (3.5ms)
+Completed 200 OK in 19ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:39:29 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7acqupeWWYb/17OuddBa8a9DljyXE4Z7vHhzAJS6I9cfWu0rBxgYIyadzUOyl7A39PTO16hCydxHIfGNeOg8og==", "todo"=>{"name"=>"bvfgh", "description"=>"dzxgthj"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (1.4ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "bvfgh"], ["description", "dzxgthj"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/11
+Completed 302 Found in 11ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/todos/11" for 127.0.0.1 at 2019-02-20 15:39:29 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"11"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.3ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:48:12 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (144.1ms)
+Completed 200 OK in 295ms (Views: 186.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:48:17 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N6bTPIknX3FTR1Uv+Li0HeD0pLGBcDPqYY/6AW2AVLfFWxStGake1IoNK8I//17bu0P8Wr4hfE2a1niMgdJLwg==", "todo"=>{"name"=>"sdw", "description"=>"sdsqd"}, "commit"=>"Create Todo"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (31.9ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "sdw"], ["description", "sdsqd"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/12
+Completed 302 Found in 38ms (ActiveRecord: 33.6ms)
+
+
+Started GET "/todos/12" for 127.0.0.1 at 2019-02-20 15:48:17 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"12"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.6ms)
+Completed 200 OK in 58ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:50:40 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (99.1ms)
+Completed 200 OK in 218ms (Views: 117.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:50:46 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/A8YeHG+4cAwXohpu0QGui9WQqxoYiwyXBjtL5/odpwO8t/p4TCgZekU9oR8A+x8dOEaR1czY5WnQW+ic7pp6Q==", "todo"=>{"name"=>"dfhryj", "description"=>"gj78o089"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (64.1ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "dfhryj"], ["description", "gj78o089"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (144.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/13
+Completed 302 Found in 214ms (ActiveRecord: 208.5ms)
+
+
+Started GET "/todos/13" for 127.0.0.1 at 2019-02-20 15:50:46 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"13"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:54:58 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/chandanas/.rvm/gems/ruby-2.3.8/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (108.0ms)
+Completed 200 OK in 212ms (Views: 131.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:55:04 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vUVFCTRfy6nb4quei2/37kttnM4f9AJfllGtHbzcJZZPuIKYpNGKDAKo1XNMKB0oENrEJSClTfhtCC+QUI464w==", "todo"=>{"name"=>"gh", "description"=>"gh"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (23.5ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "gh"], ["description", "gh"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/14
+Completed 302 Found in 29ms (ActiveRecord: 25.1ms)
+
+
+Started GET "/todos/14" for 127.0.0.1 at 2019-02-20 15:55:04 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"14"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 15:56:47 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (3.2ms)
+Completed 200 OK in 21ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 15:56:54 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3uEcye+0N+jMriqJ1ipdu9S0EmiGlPkJsL7qflklKGksHNtYfzp2TRXkVGQRbbd9jwNKg7nFtq5L52jztXc3HA==", "todo"=>{"name"=>"sget", "description"=>"rytru"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (1.3ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "sget"], ["description", "rytru"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (44.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/15
+Completed 302 Found in 50ms (ActiveRecord: 45.4ms)
+
+
+Started GET "/todos/15" for 127.0.0.1 at 2019-02-20 15:56:54 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"15"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 16:03:10 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (2.1ms)
+Completed 200 OK in 50ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 16:03:18 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QvmkjrjwPIhMrcohvGVWNTrs5mbFj0xvp7rb8FqilrWwBGMfKH59LZXntMx7IrzzYVu+jfreA8hc41l9tvCJwA==", "todo"=>{"name"=>"adgeh", "description"=>"sftyetyh"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (0.5ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "adgeh"], ["description", "sftyetyh"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (62.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/16
+Completed 302 Found in 67ms (ActiveRecord: 63.1ms)
+
+
+Started GET "/todos/16" for 127.0.0.1 at 2019-02-20 16:03:18 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"16"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.6ms)
+Completed 200 OK in 107ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 16:59:41 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (3.2ms)
+Completed 200 OK in 99ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 16:59:50 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbm++4pTSisG1TdwItHM1dgyybf0E1+lLGuZY6gDOvZ3RHlqGt0Ljt+fSZ3lliYTg4WRXMtCEALXMhvuRFElgw==", "todo"=>{"name"=>"dfg", "description"=>"dfethht"}, "commit"=>"Create Todo"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (70.9ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "dfg"], ["description", "dfethht"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/17
+Completed 302 Found in 87ms (ActiveRecord: 81.8ms)
+
+
+Started GET "/todos/17" for 127.0.0.1 at 2019-02-20 16:59:50 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"17"}
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos/new" for 127.0.0.1 at 2019-02-20 17:04:03 +0530
+Processing by TodosController#new as HTML
+  Rendering todos/new.html.erb
+  Rendered todos/new.html.erb (4.8ms)
+Completed 200 OK in 27ms (Views: 13.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/todos" for 127.0.0.1 at 2019-02-20 17:04:07 +0530
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFxKcSL0MQ21qxW6jP+EmwIuazjMaCtx/MPPhZ3dAivqoY3gsnpwqGzha1dLuG5dWZkz0/M5ZNYHmk0IcY8dXg==", "todo"=>{"name"=>"zcs ", "description"=>"xacad"}, "commit"=>"Create Todo"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("name", "description") VALUES (?, ?)[0m  [["name", "zcs "], ["description", "xacad"]]
+  ↳ app/controllers/todos_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todos_controller.rb:8
+Redirected to http://localhost:3000/todos/18
+Completed 302 Found in 12ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/todos/18" for 127.0.0.1 at 2019-02-20 17:04:07 +0530
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:16
+  Rendering todos/show.html.erb
+  Rendered todos/show.html.erb (0.5ms)
+Completed 200 OK in 233ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
